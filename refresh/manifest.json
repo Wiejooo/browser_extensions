@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Auto Refresh",
+    "version": "1.0",
+    "permissions": ["scripting", "tabs", "storage"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": ["https://b2b.miglo.pl/"],
+    "commands": {
+        "toggle_auto_click": {
+            "suggested_key": {
+                "default": "Alt+A"
+            },
+            "description": "Toggle auto click on/off"
+        }
+    }
+}

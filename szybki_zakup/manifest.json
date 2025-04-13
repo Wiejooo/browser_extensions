@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Szybki Zakup",
+    "version": "1.0",
+    "permissions": ["contextMenus", "scripting", "storage"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": [
+        "https://b2b.miglo.pl/*"
+    ],
+    "commands": {
+    "start_quick_purchase": {
+      "suggested_key": {
+        "default": "Alt+Q",
+        "mac": "Alt+Q"
+      },
+      "description": "Rozpocznij szybki zakup"
+    }
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://b2b.miglo.pl/*"],
+            "js": ["content.js"],
+            "run_at": "document_end"
+        }
+    ]
+}
