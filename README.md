@@ -1,3 +1,4 @@
+PL
 # 🛒 Szybki Zakup – Rozszerzenie do przeglądarki
 Szybki Zakup to rozszerzenie do przeglądarki (Chrome/Opera), które automatyzuje proces zakupowy na stronie https://b2b.miglo.pl. Dzięki niemu możliwe jest błyskawiczne dodanie produktu do koszyka oraz przejście przez kolejne etapy zamówienia – aż do jego finalizacji.
 
@@ -22,6 +23,7 @@ Szybki Zakup to rozszerzenie do przeglądarki (Chrome/Opera), które automatyzuj
 - Alt+Q – uruchamia proces szybkiego zakupu na aktywnej stronie.
 
 
+
 # 💰 Pokaż Goldy – Rozszerzenie do przeglądarki
 Pokaż Goldy to rozszerzenie do przeglądarki zaprojektowane z myślą o użytkownikach platformy miglo.pl. Jego głównym zadaniem jest szybkie i przejrzyste wyświetlanie informacji o produktach, których nazwy lub parametry zawierają określone frazy.
 
@@ -33,6 +35,7 @@ Pokaż Goldy to rozszerzenie do przeglądarki zaprojektowane z myślą o użytko
 - Działa automatycznie po wejściu na odpowiednią stronę platformy B2B.
 
 - Wersja lekka – bez ingerencji w wygląd całej strony, szybkie działanie w tle.
+
 
 
 # 🔄 Refresh – Rozszerzenie do przeglądarki
